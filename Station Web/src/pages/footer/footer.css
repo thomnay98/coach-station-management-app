@@ -1,0 +1,43 @@
+.s-footer {
+    display: flex;
+    background: #3399ff;
+    border-top: 1px #3399ff solid;
+    padding-top: 15px;
+    clear: both;
+    color: #000;
+    font-size: 15px;
+    position: relative;
+}
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20;
+}
+.right-footer{
+    min-width: 300px;
+    align-items: center;
+    float: left;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: center;
+}
+.right-footer h1{
+    margin-top: 25px;
+    font-size: 45px;
+    font-style: italic;
+}
+.left-footer{
+    min-width: 300px;
+    position: relative;
+    align-items: center;
+    text-align: right;
+}
+
+@media screen and (max-width: 1080px){
+	.left-footer{
+        text-align: left;
+    }
+}

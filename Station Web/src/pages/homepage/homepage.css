@@ -1,0 +1,135 @@
+.bg-form{
+  background-image: url('./../../images/background.png');
+  background-size: auto;
+  height: 500px;
+  padding: 100px;
+}
+
+.wraper{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20;
+}
+
+/*---------------------------- HomeCard ---------------------------------*/
+
+.card-sg {
+  width: 300px;
+  height: 200px;
+  background-color: #cfcfcf;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  box-shadow: 0 0 10px;
+}
+.card-sg:hover{
+  transform: scale(1.2);
+}
+.card-sg .icon-sg{
+  position: relative;
+  font-size: 50px;
+  margin-left: 100px;
+  color: rgb(247, 70, 16);
+}
+.card-sg h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+.card-sg p {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/*---------------------------- BigCityCard ---------------------------------*/
+
+.bg-grey {
+  background-color: rgb(228, 225, 225);
+}
+
+.bc-card-item{
+  max-width: 350px;
+  height: 320px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px
+}
+.bc-card-item img{
+  margin-top: -5px;
+  border-radius: 10px
+}
+
+.bc-card .bc-card-item:hover{
+  transform: translateY(-2px);
+}
+
+.bc-card h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.bc-card h4{
+  float: left;
+  font-size: 15px;
+}
+
+
+/*---------------------------- BrandSlider ---------------------------------*/
+
+.br-slider h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.br-slider{
+  
+  background-color: #94acda;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: auto;
+  line-height: auto;
+  background: #94acda;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #000;
+}
+.br-card{
+  width: 200px;
+  height: 180px;
+  margin: 30px auto;
+  background-color: #6795eb;
+  border: none;
+  border-radius: 5px;
+}
+.br-card h4{
+  font-weight: bold;
+  color: #fff;
+}
+
+/*---------------------------- HomeNews ---------------------------------*/
+.home-news h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.news-card{
+  width: 270px;
+  margin: 10 auto;
+  margin-top: 10px;
+}

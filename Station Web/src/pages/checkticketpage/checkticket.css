@@ -1,0 +1,62 @@
+.sider-layout-brand{
+    min-height: 75vh;
+}
+
+.form-check{
+    background-color: aliceblue;
+    height: 130px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 0.5px solid aliceblue
+}
+
+.form-check label{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.btn-check{
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+}
+
+
+#info-sp{
+    margin: 20px
+}
+#info-sp span{
+    color: #000;
+    font-size: 14px;
+}
+
+.btn-cancel-ticket{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.modal-cancel-ticket label{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.in-cancel-ticket{
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+    padding: 0.2rem 0.5rem;
+    margin-top: 10px;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+    transition: .3s;
+}
+.in-cancel-ticket:hover{
+    background-color: rgba(255, 51, 51, 0.1);
+}
+.in-cancel-ticket:focus{
+    border: 2px solid rgba(255,51,51,0.47);
+    background-color: #fff;
+}

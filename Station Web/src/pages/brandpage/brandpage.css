@@ -1,0 +1,73 @@
+
+.db-layout{
+    min-height: 70vh;
+    margin-top: 20px;
+}
+.sider-layout-brand{
+    background-color: #f0f2f5;
+    padding-left: 20px;
+}
+
+.wrapper-brands{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-img{
+    width: 55%;
+    float: left;
+    margin-left: 20px
+}
+.brand-img img{
+    width: 100%;
+    height: 400px;
+}
+
+.brand-info{
+    margin-left: 20px;
+    width: 40%;
+}
+
+.brand-info ._info{
+    display: flex;
+}
+
+.brand-info h3{
+    float: left;
+    width: 140px
+}
+
+.brand-info p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.journey{
+    margin: 20px 20px;
+}
+
+@media screen and (max-width: 1265px){
+	.contract{
+        width: 59%;
+        height: 100%;
+        padding: 0
+    }
+    .map-address{
+        height: 400px;
+        margin-top: 20px
+    }
+}
+
+@media screen and (max-width: 880px){
+	.brand-img{
+        width: 90%;
+        height: 100%;
+        padding: 0
+    }
+    .brand-info{
+        width: 90%;
+        height: 400px;
+        margin-top: 20px
+    }
+}
